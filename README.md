@@ -44,8 +44,8 @@ A modern, production-ready decentralized application (dApp) that demonstrates **
 ## 📋 Prerequisites
 
 ### **Required Software**
-- **Node.js**: Version 18.19.0 or higher
-- **npm**: Version 9.0.0 or higher (comes with Node.js)
+- **Node.js**: Version 20.19.0 or higher
+- **npm**: Version 10.x or higher (comes with Node.js)
 - **Git**: For cloning the repository
 
 ### **Blockchain Requirements**
