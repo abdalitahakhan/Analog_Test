@@ -44,7 +44,7 @@ A modern, production-ready decentralized application (dApp) that demonstrates **
 ## 📋 Prerequisites
 
 ### **Required Software**
-- **Node.js**: Version 18.0.0 or higher
+- **Node.js**: Version 18.19.0 or higher
 - **npm**: Version 9.0.0 or higher (comes with Node.js)
 - **Git**: For cloning the repository
 
@@ -61,7 +61,7 @@ A modern, production-ready decentralized application (dApp) that demonstrates **
 
 ### **1. Clone the Repository**
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/abdalitahakhan/Analog_Test.git
 cd Analog_Test
 ```
 
@@ -117,8 +117,7 @@ The dApp is configured for **Sepolia Testnet** by default:
 ## 🧪 Testing
 
 ### **Getting Test Tokens**
-1. **Sepolia ETH**: Use [Sepolia Faucet](https://sepoliafaucet.com/)
-2. **Sepolia USDC**: The dApp uses a mock USDC contract for testing
+1. **Sepolia USDC**: The dApp uses a mock USDC contract for testing use [sepolia faucet](https://faucet.polygon.technology/) to get mock USDC
 
 ### **Testing Transactions**
 1. **Login** with your Google account
@@ -140,8 +139,7 @@ src/
 │   ├── useGoogleAuth.ts      # Google authentication
 │   └── useSmartWallet.ts     # ZeroDev integration
 ├── config/             # Configuration files
-│   ├── index.ts        # App configuration
-│   └── zerodev.ts      # ZeroDev settings
+│   ├── index.ts        # App and ZeroDev configuration
 └── types/              # TypeScript type definitions
 ```
 
@@ -196,10 +194,6 @@ The dApp includes comprehensive logging for debugging:
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
